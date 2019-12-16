@@ -25,8 +25,9 @@ to analyze.
 
 ### To Run
 In terminal (not pipenv shell),
-`python -m rqlib`
-
+```bash
+python -m rqlib
+```
 
 ### Limitations and Challenges
 
