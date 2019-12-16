@@ -1,3 +1,8 @@
+## RQLIB
+### Requirements and Libraries Finder
+#### Final Project, 2019 FALL, CSCI E-29
+#### Gabriel Guillen, Zinoo Park
+
 
 Wouldn't it be nice if we had a way of knowing which requirements and libraries were installed or not installed where ?
 It is every so annoying to find your app working at home only to find that it breaks down on Travis just because
