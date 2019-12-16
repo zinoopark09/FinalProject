@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+pytest-cov = "*"
+
+[packages]
+awscli = "*"
+pandas = "*"
+xlrd = "*"
+pyarrow = "*"
+luigi = "*"
+boto3 = "*"
+onnx = "*"
+onnx-caffe2 = "*"
+
+[requires]
+python_version = "3.7"
+
+#[packages.csci-utils]
+#git = "https://github.com/csci-e-29/2019fa-csci-utils-GabrielBG010"
+#editable = true
