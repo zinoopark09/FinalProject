@@ -1,12 +1,19 @@
 
 Wouldn't it be nice if we had a way of knowing which requirements and libraries were installed or not installed where ?
-It is every so annoying to find your app working at home only to find that it breaks down on Travis just because a library or a module...
+It is every so annoying to find your app working at home only to find that it breaks down on Travis just because
+a library or a module was not included in the Pipfile.
 
-Pytorch has implemented a neat algorithm for artistic style transfer
-[here](https://github.com/pytorch/examples/tree/master/fast_neural_style). For
-this pset, we will be using a pre-trained model for styling our own input image,
-and we will do so in a [Luigi](https://luigi.readthedocs.io/en/stable/)
-workflow.
+The features designed are as below:
+
+1. Find libraries installed in MAIN & libraries installed via PIPENV
+
+2. Find where the dependencies are installed. Pathwise
+
+3. Show Dependency Tree
+
+4. Convert Pipfiles to Travis versions
+
+__________________________
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
