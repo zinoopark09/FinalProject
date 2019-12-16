@@ -1,4 +1,6 @@
 
+Wouldn't it be nice if we had a way of knowing which requirements and libraries were installed or not installed where ?
+It is every so annoying to find your app working at home only to find that it breaks down on Travis just because a library or a module...
 
 Pytorch has implemented a neat algorithm for artistic style transfer
 [here](https://github.com/pytorch/examples/tree/master/fast_neural_style). For
