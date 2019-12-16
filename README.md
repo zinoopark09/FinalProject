@@ -1,5 +1,6 @@
-## RQLIB
-### Requirements and Libraries Finder
+# RQLIB
+## Requirements and Libraries Finder
+## Overview
 ### Final Project, 2019 FALL, CSCI E-29
 #### Gabriel Guillen, Zinoo Park
 
@@ -16,4 +17,21 @@ The features designed are as below:
 3. Show Dependency Tree
 
 4. Convert Pipfiles to Travis versions
+
+### Final Deliverable
+
+The end product is an app that can be executed from the command line, in which you can select a folder or environment
+to analyze.
+
+### To Run
+In terminal (not pipenv shell),
+'python -m rqlib'
+
+
+### Limitations and Challenges
+
+Due to time constraint, it was only possible to develop for only one specific virtual environment or OS. In this case,
+in Anaconda on Windows. However, given enough resources, it may be easy to scale.
+
+
 
